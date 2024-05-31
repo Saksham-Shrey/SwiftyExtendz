@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,7 +14,6 @@
 		7EDB57FA11995CE075487EBE270E29B9 /* Pods-SwiftyExtendz_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 084C2ACED545A0A1C0A458A530E73C93 /* Pods-SwiftyExtendz_Example-dummy.m */; };
 		950F41DE2227487F43B57B8F311900C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		9811E454EB875FC3E46D25CA1F10BE41 /* Pods-SwiftyExtendz_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B810264F9E698498F1D52B7B9FC7F5F6 /* Pods-SwiftyExtendz_Tests-dummy.m */; };
-		A0AFF2CB8B14093ADB10BFE29063CDF6 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086827476A79248A817060DB3107E221 /* ReplaceMe.swift */; };
 		E04C2BCFDCBC4D9502FFF42A89A9912F /* Pods-SwiftyExtendz_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F78CE3D96503C65A22CDB8D0A345A18 /* Pods-SwiftyExtendz_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F3B50F8F2468CD678410E105E5066AFF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -37,30 +36,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		05C75ECF9FFF63FA0333644E5308520D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		05C75ECF9FFF63FA0333644E5308520D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		07E5802FF79F47AAE5CF2C1224567096 /* Pods-SwiftyExtendz_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftyExtendz_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		084C2ACED545A0A1C0A458A530E73C93 /* Pods-SwiftyExtendz_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftyExtendz_Example-dummy.m"; sourceTree = "<group>"; };
-		086827476A79248A817060DB3107E221 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SwiftyExtendz/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		11FEA80D9035AC58650ECC81A0ECE848 /* Pods-SwiftyExtendz_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftyExtendz_Example-umbrella.h"; sourceTree = "<group>"; };
 		14E81B0451214145AED4CB9ACC4D983D /* SwiftyExtendz-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyExtendz-prefix.pch"; sourceTree = "<group>"; };
 		273131825809E2C304274BDE8487523E /* Pods-SwiftyExtendz_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftyExtendz_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		2DB0490A44BBB35309D9DB12E30ED337 /* Pods-SwiftyExtendz_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftyExtendz_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		3087BF211D9D3085790F767F483E9D98 /* SwiftyExtendz-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyExtendz-umbrella.h"; sourceTree = "<group>"; };
-		397673526461F049BFB2327CDDF6C6CD /* SwiftyExtendz.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SwiftyExtendz.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		397673526461F049BFB2327CDDF6C6CD /* SwiftyExtendz.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SwiftyExtendz.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3AA0BA065231BE751ABB570667F786DD /* Pods-SwiftyExtendz_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftyExtendz_Example.release.xcconfig"; sourceTree = "<group>"; };
 		44475A08069333997796FAAE58DE88EA /* Pods-SwiftyExtendz_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftyExtendz_Tests-Info.plist"; sourceTree = "<group>"; };
-		61CB8BD5F82603FFA1993BB3F4FC8BDD /* SwiftyExtendz */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyExtendz; path = SwiftyExtendz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		61CB8BD5F82603FFA1993BB3F4FC8BDD /* SwiftyExtendz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyExtendz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		667E5A016CD59B0EDB281B34DE420B22 /* SwiftyExtendz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyExtendz.debug.xcconfig; sourceTree = "<group>"; };
-		6A5A86657E4ECBA19A29F5206951F877 /* Pods-SwiftyExtendz_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SwiftyExtendz_Example"; path = Pods_SwiftyExtendz_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A5A86657E4ECBA19A29F5206951F877 /* Pods_SwiftyExtendz_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyExtendz_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B210D6AFE3EF4196E1464C166B789D4 /* Pods-SwiftyExtendz_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftyExtendz_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		6BA663F05D9D5F92E630A9A68E79B4DC /* SwiftyExtendz.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyExtendz.modulemap; sourceTree = "<group>"; };
 		6F78CE3D96503C65A22CDB8D0A345A18 /* Pods-SwiftyExtendz_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftyExtendz_Tests-umbrella.h"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7820397E05BFC423EF396E1D6A587EE1 /* Pods-SwiftyExtendz_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftyExtendz_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		79E9760CD5B74CE74342AFD065C2841F /* Pods-SwiftyExtendz_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SwiftyExtendz_Tests"; path = Pods_SwiftyExtendz_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79E9760CD5B74CE74342AFD065C2841F /* Pods_SwiftyExtendz_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyExtendz_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93E5D2952464B37C8674247FDDF01153 /* Pods-SwiftyExtendz_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftyExtendz_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AF87E708E8530D87B7F5BB6B68BD7EE1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AF87E708E8530D87B7F5BB6B68BD7EE1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		B810264F9E698498F1D52B7B9FC7F5F6 /* Pods-SwiftyExtendz_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftyExtendz_Tests-dummy.m"; sourceTree = "<group>"; };
 		CA0E185CA58A35413B285A11B9C95910 /* SwiftyExtendz-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftyExtendz-Info.plist"; sourceTree = "<group>"; };
 		CDF69AA4B4AAA07BAC04F51F9A8D5E5F /* Pods-SwiftyExtendz_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftyExtendz_Example-Info.plist"; sourceTree = "<group>"; };
@@ -120,9 +118,9 @@
 		7306E296C717F36993A8CF47DFEA722B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6A5A86657E4ECBA19A29F5206951F877 /* Pods-SwiftyExtendz_Example */,
-				79E9760CD5B74CE74342AFD065C2841F /* Pods-SwiftyExtendz_Tests */,
-				61CB8BD5F82603FFA1993BB3F4FC8BDD /* SwiftyExtendz */,
+				6A5A86657E4ECBA19A29F5206951F877 /* Pods_SwiftyExtendz_Example.framework */,
+				79E9760CD5B74CE74342AFD065C2841F /* Pods_SwiftyExtendz_Tests.framework */,
+				61CB8BD5F82603FFA1993BB3F4FC8BDD /* SwiftyExtendz.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -140,7 +138,6 @@
 		9280211F6F5E2CB61A2696BDB9B21F0F /* SwiftyExtendz */ = {
 			isa = PBXGroup;
 			children = (
-				086827476A79248A817060DB3107E221 /* ReplaceMe.swift */,
 				8FD69DB8BD81C0325089324CCB226EF4 /* Pod */,
 				98E272F712822269C138C1D618C9DCF2 /* Support Files */,
 			);
@@ -268,7 +265,7 @@
 			);
 			name = SwiftyExtendz;
 			productName = SwiftyExtendz;
-			productReference = 61CB8BD5F82603FFA1993BB3F4FC8BDD /* SwiftyExtendz */;
+			productReference = 61CB8BD5F82603FFA1993BB3F4FC8BDD /* SwiftyExtendz.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		86A1BEAFCDC4740D237AA218051FACC3 /* Pods-SwiftyExtendz_Example */ = {
@@ -287,7 +284,7 @@
 			);
 			name = "Pods-SwiftyExtendz_Example";
 			productName = Pods_SwiftyExtendz_Example;
-			productReference = 6A5A86657E4ECBA19A29F5206951F877 /* Pods-SwiftyExtendz_Example */;
+			productReference = 6A5A86657E4ECBA19A29F5206951F877 /* Pods_SwiftyExtendz_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D9624FD868454420C1E98DD7E4AE0439 /* Pods-SwiftyExtendz_Tests */ = {
@@ -306,7 +303,7 @@
 			);
 			name = "Pods-SwiftyExtendz_Tests";
 			productName = Pods_SwiftyExtendz_Tests;
-			productReference = 79E9760CD5B74CE74342AFD065C2841F /* Pods-SwiftyExtendz_Tests */;
+			productReference = 79E9760CD5B74CE74342AFD065C2841F /* Pods_SwiftyExtendz_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -315,8 +312,20 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 1500;
-				LastUpgradeCheck = 1500;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					370940B7782FDFAB69D23B2198A4FCF2 = {
+						LastSwiftMigration = 1540;
+					};
+					86A1BEAFCDC4740D237AA218051FACC3 = {
+						LastSwiftMigration = 1540;
+					};
+					D9624FD868454420C1E98DD7E4AE0439 = {
+						LastSwiftMigration = 1540;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -367,7 +376,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0AFF2CB8B14093ADB10BFE29063CDF6 /* ReplaceMe.swift in Sources */,
 				4A0C34742734D5C24BE2F21AF6A5EF37 /* SwiftyExtendz-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,21 +419,26 @@
 			baseConfigurationReference = 2DB0490A44BBB35309D9DB12E30ED337 /* Pods-SwiftyExtendz_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-SwiftyExtendz_Example/Pods-SwiftyExtendz_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SwiftyExtendz_Example/Pods-SwiftyExtendz_Example.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -433,6 +446,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -444,21 +459,26 @@
 			baseConfigurationReference = 273131825809E2C304274BDE8487523E /* Pods-SwiftyExtendz_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-SwiftyExtendz_Tests/Pods-SwiftyExtendz_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SwiftyExtendz_Tests/Pods-SwiftyExtendz_Tests.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -466,6 +486,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -477,6 +498,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -508,9 +530,11 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -523,11 +547,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
@@ -539,26 +562,32 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 667E5A016CD59B0EDB281B34DE420B22 /* SwiftyExtendz.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/SwiftyExtendz/SwiftyExtendz-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SwiftyExtendz/SwiftyExtendz-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/SwiftyExtendz/SwiftyExtendz.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
 				PRODUCT_MODULE_NAME = SwiftyExtendz;
 				PRODUCT_NAME = SwiftyExtendz;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -570,21 +599,26 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EB73AFDAF092890E96DE627412681F99 /* SwiftyExtendz.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/SwiftyExtendz/SwiftyExtendz-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SwiftyExtendz/SwiftyExtendz-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/SwiftyExtendz/SwiftyExtendz.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
 				PRODUCT_MODULE_NAME = SwiftyExtendz;
 				PRODUCT_NAME = SwiftyExtendz;
 				SDKROOT = iphoneos;
@@ -603,21 +637,26 @@
 			baseConfigurationReference = 3AA0BA065231BE751ABB570667F786DD /* Pods-SwiftyExtendz_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-SwiftyExtendz_Example/Pods-SwiftyExtendz_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SwiftyExtendz_Example/Pods-SwiftyExtendz_Example.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -625,6 +664,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -636,6 +676,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -667,9 +708,11 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -685,12 +728,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -703,21 +745,26 @@
 			baseConfigurationReference = 7820397E05BFC423EF396E1D6A587EE1 /* Pods-SwiftyExtendz_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-SwiftyExtendz_Tests/Pods-SwiftyExtendz_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SwiftyExtendz_Tests/Pods-SwiftyExtendz_Tests.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -725,6 +772,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
