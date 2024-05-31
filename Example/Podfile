@@ -1,6 +1,13 @@
 use_frameworks!
-target 'SwiftyExtendz_Tests' do
+
+platform :ios, '10.0'
+
+target 'SwiftyExtendz_Example' do
   pod 'SwiftyExtendz', :path => '../'
-  
-  
+
+  target 'SwiftyExtendz_Tests' do
+    inherit! :search_paths
+
+    
+  end
 end
