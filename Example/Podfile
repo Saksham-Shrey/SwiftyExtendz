@@ -1,0 +1,6 @@
+use_frameworks!
+target 'SwiftyExtendz_Tests' do
+  pod 'SwiftyExtendz', :path => '../'
+  
+  
+end

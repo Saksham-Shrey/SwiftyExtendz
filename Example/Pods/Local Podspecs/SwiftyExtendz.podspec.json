@@ -1,0 +1,22 @@
+{
+  "name": "SwiftyExtendz",
+  "version": "0.1.0",
+  "summary": "A short description of SwiftyExtendz.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Saksham-Shrey/SwiftyExtendz",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Saksham-Shrey": "sakshamshrey_work@icloud.com"
+  },
+  "source": {
+    "git": "https://github.com/Saksham-Shrey/SwiftyExtendz.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "SwiftyExtendz/Classes/**/*"
+}
