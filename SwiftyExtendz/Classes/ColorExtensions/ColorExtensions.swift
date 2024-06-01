@@ -1,7 +1,7 @@
 import SwiftUI
 
 public class ColorExtensions {
-    func hexStringToRGB(_ hexString: String, opacity: Double? = 1.0) -> Color {
+    public static func hexStringToRGB(_ hexString: String, opacity: Double? = 1.0) -> Color {
         let sanitizedHexString = hexString.trimmingCharacters(in: .init(charactersIn: "#"))
         guard sanitizedHexString.count == 6 else {
             return Color.red
