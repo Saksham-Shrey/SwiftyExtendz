@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SwiftyExtendz'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A comprehensive set of useful SwiftUI Extensions.'
 
 # This description is used to generate tags and improve search results.
