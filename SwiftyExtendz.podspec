@@ -29,7 +29,7 @@ A set of repetitively used SwiftUI Extensions and Features.
   s.social_media_url = 'https://twitter.com/SakshamShrey'
 
   s.ios.deployment_target = '16.0'
-  s.swift_versions = '5.0'
+  s.swift_versions = ['5']
 
   s.source_files = 'SwiftyExtendz/Classes/**/*'
   

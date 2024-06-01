@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4540B468BD41BE56AB9F04B0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		33AA0A927AD348C75581B370 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -26,8 +26,8 @@
 		607FACE51AFB9204008FA782 /* SwiftyExtendz_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyExtendz_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		8E5D64FCBEE7DEE3F37C7602 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		CEE96654966AA194C0EC6A8F /* SwiftyExtendz.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SwiftyExtendz.podspec; path = ../SwiftyExtendz.podspec; sourceTree = "<group>"; };
+		6F028E47B66126F553A1235F /* SwiftyExtendz.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SwiftyExtendz.podspec; path = ../SwiftyExtendz.podspec; sourceTree = "<group>"; };
+		FF78430E4B450B56AC298FAC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,9 +78,9 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				CEE96654966AA194C0EC6A8F /* SwiftyExtendz.podspec */,
-				8E5D64FCBEE7DEE3F37C7602 /* README.md */,
-				4540B468BD41BE56AB9F04B0 /* LICENSE */,
+				6F028E47B66126F553A1235F /* SwiftyExtendz.podspec */,
+				33AA0A927AD348C75581B370 /* README.md */,
+				FF78430E4B450B56AC298FAC /* LICENSE */,
 			);
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
