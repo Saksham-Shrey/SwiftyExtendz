@@ -1,5 +1,7 @@
 import SwiftUI
 
+
+/// SwiftUI Colors
 public class ColorExtensions {
     public static func hexStringToRGB(_ hexString: String, opacity: Double? = 1.0) -> Color {
         let sanitizedHexString = hexString.trimmingCharacters(in: .init(charactersIn: "#"))
@@ -22,6 +24,7 @@ public class ColorExtensions {
     }
 }
 
+/// UIColors
 public class UIColorExtensions {
     public static func hexStringToRGB(_ hexString: String, opacity: Double? = 1.0) -> UIColor {
         let sanitizedHexString = hexString.trimmingCharacters(in: .init(charactersIn: "#"))
@@ -44,7 +47,7 @@ public class UIColorExtensions {
     }
 }
 
-
+/// Custom UINavigationBarAppearance
 extension UINavigationBarAppearance {
     static func customAppearance(_ hexString: String, opacity: Double? = 1.0) -> UINavigationBarAppearance {
         let appearance = UINavigationBarAppearance()
