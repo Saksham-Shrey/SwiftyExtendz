@@ -22,7 +22,6 @@ public class ColorExtensions {
     }
 }
 
-
 public class UIColorExtensions {
     public static func hexStringToRGB(_ hexString: String, opacity: Double? = 1.0) -> UIColor {
         let sanitizedHexString = hexString.trimmingCharacters(in: .init(charactersIn: "#"))
