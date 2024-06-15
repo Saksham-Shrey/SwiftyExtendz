@@ -50,7 +50,7 @@ extension UINavigationBarAppearance {
     static func customAppearance(_ hexString: String, opacity: Double? = 1.0) -> UINavigationBarAppearance {
         let appearance = UINavigationBarAppearance()
         appearance.configureWithOpaqueBackground()
-        appearance.backgroundColor = UIColorExtensions.hexStringToRGB(hexString, opacity)
+        appearance.backgroundColor = UIColorExtensions.hexStringToRGB(hexString, opacity: opacity ?? 1)
         appearance.titleTextAttributes = [.foregroundColor: UIColor.white]
         appearance.largeTitleTextAttributes = [.foregroundColor: UIColor.white]
         return appearance
